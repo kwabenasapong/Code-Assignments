@@ -1,0 +1,53 @@
+img{
+    display: block; 
+  }
+  
+  #image{
+    width: 50%;
+    height: auto;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;   
+  }
+
+  main{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+  }
+
+  #tribute-info{
+      text-align: justify;
+      margin-left: auto;
+      margin-right: auto;
+      width: 70%;
+  }
+
+#about{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1%;
+}
+
+blockquote{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+li{
+    padding-top: 2%;
+}
+
+h3{
+    text-align: center;
+    margin-bottom: -0.5%;
+    margin-top: 5%;
+}
+
+#img-caption{
+    margin-top: 0.25%;
+}
+
