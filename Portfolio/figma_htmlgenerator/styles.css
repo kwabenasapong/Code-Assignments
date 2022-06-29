@@ -1,0 +1,180 @@
+.page_1 { 
+	width:3000px;
+	height:1688px;
+	position:absolute;
+}
+.body { 
+	background-color:rgba(38.0000015348196, 39.00000147521496, 38.0000015348196, 1);
+	width:3000px;
+	height:1688px;
+	left:3.5px;
+	top:-1.5px;
+}
+.nav { 
+	width:1761px;
+	height:75px;
+	position:absolute;
+	left:961px;
+	top:57px;
+}
+.welcome { 
+	color:rgba(0, 176.00000470876694, 240.00000089406967, 1);
+	width:405px;
+	height:75px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+.about_me { 
+	color:rgba(255, 255, 255, 1);
+	width:405px;
+	height:75px;
+	position:absolute;
+	left:451px;
+	top:0px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+.contact_me { 
+	color:rgb(255, 255, 255, 1);
+	width:405px;
+	height:75px;
+	position:absolute;
+	left:902px;
+	top:0px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+.sign_in___up { 
+	color:rgba(255, 255, 255, 1);
+	width:405px;
+	height:75px;
+	position:absolute;
+	left:1356px;
+	top:0px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+.image_2 { 
+	width:2694px;
+	height:1442px;
+	position:absolute;
+	left:153px;
+	top:238px;
+	background-image:url(images/image_2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.kwabena_b__sapong { 
+	color:rgba(0, 176.00000470876694, 240.00000089406967, 1);
+	width:505px;
+	height:122px;
+	position:absolute;
+	left:166px;
+	top:29px;
+	font-family:Inspiration;
+	text-align:left;
+	font-size:96px;
+	letter-spacing:0;
+}
+.section_group { 
+	width:1997px;
+	height:702px;
+	position:absolute;
+	left:634px;
+	top:693px;
+}
+.section_inner { 
+	background-color:rgba(38.0000015348196, 39.00000147521496, 38.0000015348196, 0.23000000417232513);
+	width:1997px;
+	height:702px;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.button_group { 
+	width:457px;
+	height:119px;
+	position:absolute;
+	left:752px;
+	top:560px;
+}
+.button { 
+	background-color:rgba(255, 255, 255, 1);
+	width:457px;
+	height:119px;
+	position:absolute;
+	left:0px;
+	top:0px;
+	border-top-left-radius:30px;
+	border-top-right-radius:30px;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+
+.button_contact_me {
+	color:rgba(38.0000015348196, 39.00000147521496, 38.0000015348196, 1);
+	width:405px;
+	height:75px;
+	position:absolute;
+	left:26px;
+	top:22px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:50px;
+	letter-spacing:0;
+}
+
+.summary { 
+	width:1846px;
+	height:460px;
+	position:absolute;
+	left:58px;
+	top:72px;
+}
+.software_engineer___full_stack { 
+	color:rgba(255, 255, 255, 1);
+	width:1607px;
+	height:117px;
+	position:absolute;
+	left:119px;
+	top:343px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:80px;
+	letter-spacing:0;
+}
+.i_am_an_engineer { 
+	color:rgba(255, 255, 255, 1);
+	width:1846px;
+	height:300px;
+	position:absolute;
+	left:0px;
+	top:72px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:200px;
+	letter-spacing:0;
+}
+.hello { 
+	color:rgba(255, 255, 255, 1);
+	width:300px;
+	height:120px;
+	position:absolute;
+	left:773px;
+	top:0px;
+	font-family:Poppins;
+	text-align:center;
+	font-size:80px;
+	letter-spacing:20;
+}

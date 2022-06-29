@@ -1,0 +1,59 @@
+string="I am a boy who loves children"
+string_ls=string.split(' ')
+print(string_ls)
+#print(len(string_ls[1]))
+
+for word in string_ls:
+	print(word)
+	
+
+	car = {}
+
+	x = car.values()
+	y = car.keys()
+
+	n=str(len(word))
+	car[word] = n
+
+	print(x) #after the change
+	print(y)
+
+
+
+thisdict =	{
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}
+thisdict["color"] = "red"
+thisdict["tyre_size"] = "18 inches"
+print(thisdict)
+
+
+string="I am a boy who loves children"
+string_ls=string.split(' ')
+print(string_ls)
+#print(len(string_ls[1]))
+
+car = {}
+for word in string_ls:
+	print(word)
+	n=str(len(word))
+
+	
+
+	#x = car.values()
+	#y = car.keys()
+
+	
+	car.update({word:n})
+    
+
+	#print(x) #after the change
+	#print(y)
+    
+print(car)
+
+
+
+Class

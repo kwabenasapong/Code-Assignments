@@ -1,0 +1,113 @@
+2.  Open “main.py”. You’ll find the skeleton of the class Student. Student class should have the following attributes:
+
+ Name: A string, should be initialized when creating an instance of Student
+ Age: An integer, should be initialized when creating an instance of Student
+Tracks: A list of strings, should be initialized when creating an instance of Student. Feel free to pick any values as tracks.
+ Score: A float, should be initialized when creating an instance of Student.    
+3.  Create the following methods for class “Student”:
+
+change_name: Change students name, should accept a new name as an argument.
+Change_age: Change students' age, should accept a new age as an argument. Should ensure age remains an integer.
+Add_track: Add a new item to students tracks, should accept a new track as an argument.
+get_score: Return student’s score.
+
+
+
+
+
+class Dog:
+     
+    # A simple class
+    # attribute
+    attr1 = "mammal"
+    attr2 = "dog"
+ 
+    # A sample method 
+    def fun(self):
+        print("I'm a", self.attr1)
+        print("I'm a", self.attr2)
+ 
+# Driver code
+# Object instantiation
+Rodger = Dog()
+ 
+# Accessing class attributes
+# and method through objects
+print(Rodger.attr1)
+Rodger.fun()
+
+
+# Python3 program to show that the variables with a value
+# assigned in the class declaration, are class variables and
+# variables inside methods and constructors are instance
+# variables.
+	
+# Class for Dog
+class Dog:
+
+	# Class Variable
+	animal = 'dog'			
+
+	# The init method or constructor
+	def __init__(self, breed, color):
+	
+		# Instance Variable	
+		self.breed = breed
+		self.color = color	
+	
+# Objects of Dog class
+Rodger = Dog("Pug", "brown")
+Buzo = Dog("Bulldog", "black")
+
+print('Rodger details:')
+print('Rodger is a', Rodger.animal)
+print('Breed: ', Rodger.breed)
+print('Color: ', Rodger.color)
+
+print('\nBuzo details:')
+print('Buzo is a', Buzo.animal)
+print('Breed: ', Buzo.breed)
+print('Color: ', Buzo.color)
+
+# Class variables can be accessed using class
+# name also
+print("\nAccessing class variable using class name")
+print(Dog.animal)	
+
+# Python3 program to show that we can create
+# instance variables inside methods
+	
+# Class for Dog
+class Dog:
+	
+	# Class Variable
+	animal = 'dog'	
+	
+	# The init method or constructor
+	def __init__(self, breed):
+		
+		# Instance Variable
+		self.breed = breed			
+
+	# Adds an instance variable
+	def setColor(self, color):
+		self.color = color
+	
+	# Retrieves instance variable	
+	def getColor(self):	
+		return self.color
+
+# Driver Code
+Rodger = Dog("pug")
+Rodger.setColor("brown")
+print(Rodger.getColor())
+
+https://github.com/kwabenasapong/Code-Assignments/blob/55a6baf1973f1db5fb5eda3641d7d9f79aa154a4/Finding-Anagrams/main.py
+----shorturl.at/mBH29
+
+https://github.com/kwabenasapong/Code-Assignments/blob/55a6baf1973f1db5fb5eda3641d7d9f79aa154a4/Classes-and-Objects/main.py
+----https://shorturl.at/beAU8
+
+
+
+
